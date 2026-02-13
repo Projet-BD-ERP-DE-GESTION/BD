@@ -1,0 +1,65 @@
+[
+  {
+    "transaction_id": "T10001",
+    "store": "Supermarché Central",
+    "neighborhood": "Centre-ville",
+    "timestamp": "2025-11-27T09:12:34",
+    "payment_type": "cash",
+    "total_amount": 45.50,
+    "discount_amount": 5.50,
+    "items": [
+      { "product_id": "P001", "product_name": "Lait 1L", "category": "Boissons", "quantity": 1, "unit_price": 1.50, "discount": 0 },
+      { "product_id": "P010", "product_name": "Pain complet", "category": "Boulangerie", "quantity": 2, "unit_price": 2.50, "discount": 0.50 },
+      { "product_id": "P100", "product_name": "Poulet entier", "category": "Viande", "quantity": 1, "unit_price": 15.00, "discount": 5.00 }
+    ]
+  },
+  {
+    "transaction_id": "T10002",
+    "store": "Supermarché Est",
+    "neighborhood": "Quartier Est",
+    "timestamp": "2025-11-27T10:45:08",
+    "payment_type": "mobile_money",
+    "total_amount": 120.00,
+    "discount_amount": 0.00,
+    "items": [
+      { "product_id": "P050", "product_name": "Riz 5kg", "category": "Epicerie", "quantity": 1, "unit_price": 20.00, "discount": 0 },
+      { "product_id": "P200", "product_name": "Huile 1L", "category": "Epicerie", "quantity": 3, "unit_price": 10.00, "discount": 0 }
+    ]
+  },
+  {
+    "transaction_id": "T10003",
+    "store": "Supermarché Central",
+    "neighborhood": "Centre-ville",
+    "timestamp": "2025-11-27T18:05:42",
+    "payment_type": "card",
+    "total_amount": 9.00,
+    "discount_amount": 1.00,
+    "items": [
+      { "product_id": "P001", "product_name": "Lait 1L", "category": "Boissons", "quantity": 3, "unit_price": 3.00, "discount": 1.00 }
+    ]
+  },
+  {
+    "transaction_id": "T10004",
+    "store": "Supermarché Ouest",
+    "neighborhood": "Quartier Ouest",
+    "timestamp": "2025-11-27T12:30:10",
+    "payment_type": "card",
+    "total_amount": 300.00,
+    "discount_amount": 30.00,
+    "items": [
+      { "product_id": "P300", "product_name": "Coffret thé", "category": "Boissons", "quantity": 5, "unit_price": 60.00, "discount": 6.00 }
+    ]
+  },
+  {
+    "transaction_id": "T10005",
+    "store": "Supermarché Est",
+    "neighborhood": "Quartier Est",
+    "timestamp": "2025-11-27T14:15:00",
+    "payment_type": "cash",
+    "total_amount": 8.00,
+    "discount_amount": 0.00,
+    "items": [
+      { "product_id": "P011", "product_name": "Croissant", "category": "Boulangerie", "quantity": 2, "unit_price": 2.00, "discount": 0 }
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+.role-selector {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+
+  .role-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 12px;
+    font-weight: 500;
+    color: #666;
+
+    i {
+      font-size: 28px;
+      margin-bottom: 5px;
+      color: #8862e0;
+    }
+
+    span {
+      display: block;
+      text-align: center;
+    }
+
+    &:hover {
+      border-color: #8862e0;
+      background: rgba(136, 98, 224, 0.05);
+      transform: translateY(-2px);
+    }
+
+    &.active {
+      border-color: #8862e0;
+      background: rgba(136, 98, 224, 0.15);
+      color: #8862e0;
+      box-shadow: 0 0 10px rgba(136, 98, 224, 0.2);
+    }
+  }
+}
+
+.auto-form-wrapper {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  
+  .brand-logo {
+    text-align: center;
+    margin-bottom: 20px;
+    
+    img {
+      max-width: 80px;
+    }
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    
+    label {
+      font-weight: 500;
+      color: #333;
+      margin-bottom: 8px;
+    }
+    
+    input {
+      border-radius: 6px;
+      border: 1px solid #e0e0e0;
+      padding: 10px 15px;
+      font-size: 14px;
+      
+      &:focus {
+        border-color: #8862e0;
+        box-shadow: 0 0 0 3px rgba(136, 98, 224, 0.1);
+      }
+    }
+  }
+  
+  .btn {
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 10px 15px;
+  }
+}
+
+.auth {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

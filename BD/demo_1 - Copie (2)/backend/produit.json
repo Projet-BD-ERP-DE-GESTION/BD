@@ -1,0 +1,12 @@
+[
+  { "product_id": "P001", "product_name": "Ordinateur Portable Pro", "category": "Électronique" },
+  { "product_id": "P002", "product_name": "Souris Sans Fil", "category": "Accessoires" },
+  { "product_id": "P003", "product_name": "Clavier Mécanique RGB", "category": "Accessoires" },
+  { "product_id": "P004", "product_name": "Écran 27 Pouces 4K", "category": "Électronique" },
+  { "product_id": "P005", "product_name": "Casque Réducteur de Bruit", "category": "Accessoires" },
+  { "product_id": "P006", "product_name": "Bureau Assis-Debout", "category": "Mobilier" },
+  { "product_id": "P007", "product_name": "Chaise Ergonomique", "category": "Mobilier" },
+  { "product_id": "P008", "product_name": "Disque Dur Externe 2To", "category": "Stockage" },
+  { "product_id": "P009", "product_name": "Clé USB 64Go", "category": "Stockage" },
+  { "product_id": "P010", "product_name": "Webcam HD", "category": "Accessoires" }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "transaction_id": "T10001",
+    "store": "Supermarché Central",
+    "neighborhood": "Centre-ville",
+    "timestamp": "2025-11-24T09:12:34",
+    "payment_type": "cash",
+    "total_amount": 45.50,
+    "discount_amount": 5.50,
+    "items": [
+      { "product_id": "P001", "product_name": "Lait 1L", "category": "Boissons", "quantity": 1, "unit_price": 1.50, "discount": 0 },
+      { "product_id": "P010", "product_name": "Pain complet", "category": "Boulangerie", "quantity": 2, "unit_price": 2.50, "discount": 0.50 },
+      { "product_id": "P100", "product_name": "Poulet entier", "category": "Viande", "quantity": 1, "unit_price": 15.00, "discount": 5.00 }
+    ]
+  },
+  {
+    "transaction_id": "T10002",
+    "store": "Supermarché Est",
+    "neighborhood": "Quartier Est",
+    "timestamp": "2025-11-24T10:45:08",
+    "payment_type": "mobile_money",
+    "total_amount": 120.00,
+    "discount_amount": 0.00,
+    "items": [
+      { "product_id": "P050", "product_name": "Riz 5kg", "category": "Epicerie", "quantity": 1, "unit_price": 20.00, "discount": 0 },
+      { "product_id": "P200", "product_name": "Huile 1L", "category": "Epicerie", "quantity": 3, "unit_price": 10.00, "discount": 0 }
+    ]
+  },
+  {
+    "transaction_id": "T10003",
+    "store": "Supermarché Central",
+    "neighborhood": "Centre-ville",
+    "timestamp": "2025-11-24T18:05:42",
+    "payment_type": "card",
+    "total_amount": 9.00,
+    "discount_amount": 1.00,
+    "items": [
+      { "product_id": "P001", "product_name": "Lait 1L", "category": "Boissons", "quantity": 3, "unit_price": 3.00, "discount": 1.00 }
+    ]
+  },
+  {
+    "transaction_id": "T10004",
+    "store": "Supermarché Ouest",
+    "neighborhood": "Quartier Ouest",
+    "timestamp": "2025-11-25T12:30:10",
+    "payment_type": "card",
+    "total_amount": 300.00,
+    "discount_amount": 30.00,
+    "items": [
+      { "product_id": "P300", "product_name": "Coffret thé", "category": "Boissons", "quantity": 5, "unit_price": 60.00, "discount": 6.00 }
+    ]
+  },
+  {
+    "transaction_id": "T10005",
+    "store": "Supermarché Est",
+    "neighborhood": "Quartier Est",
+    "timestamp": "2025-11-25T14:15:00",
+    "payment_type": "cash",
+    "total_amount": 8.00,
+    "discount_amount": 0.00,
+    "items": [
+      { "product_id": "P011", "product_name": "Croissant", "category": "Boulangerie", "quantity": 2, "unit_price": 2.00, "discount": 0 }
+    ]
+  },
+  {
+    "transaction_id": "T10006",
+    "store": "Supermarché Central",
+    "neighborhood": "Centre-ville",
+    "timestamp": "2025-11-26T11:30:15",
+    "payment_type": "mobile_money",
+    "total_amount": 65.50,
+    "discount_amount": 8.00,
+    "items": [
+      { "product_id": "P150", "product_name": "Fromage", "category": "Laiterie", "quantity": 2, "unit_price": 12.00, "discount": 2.00 },
+      { "product_id": "P250", "product_name": "Fruits frais", "category": "Fruits et légumes", "quantity": 3, "unit_price": 15.00, "discount": 6.00 }
+    ]
+  },
+  {
+    "transaction_id": "T10007",
+    "store": "Supermarché Ouest",
+    "neighborhood": "Quartier Ouest",
+    "timestamp": "2025-11-26T15:20:45",
+    "payment_type": "card",
+    "total_amount": 155.00,
+    "discount_amount": 12.00,
+    "items": [
+      { "product_id": "P400", "product_name": "Viande rouge 500g", "category": "Viande", "quantity": 2, "unit_price": 35.00, "discount": 6.00 },
+      { "product_id": "P500", "product_name": "Légumes variés", "category": "Fruits et légumes", "quantity": 4, "unit_price": 20.00, "discount": 6.00 }
+    ]
+  },
+  {
+    "transaction_id": "T10008",
+    "store": "Supermarché Est",
+    "neighborhood": "Quartier Est",
+    "timestamp": "2025-11-27T09:00:10",
+    "payment_type": "cash",
+    "total_amount": 42.00,
+    "discount_amount": 3.00,
+    "items": [
+      { "product_id": "P600", "product_name": "Chocolat noir", "category": "Confiserie", "quantity": 2, "unit_price": 15.00, "discount": 1.00 },
+      { "product_id": "P700", "product_name": "Café 250g", "category": "Boissons", "quantity": 1, "unit_price": 12.00, "discount": 2.00 }
+    ]
+  },
+  {
+    "transaction_id": "T10009",
+    "store": "Supermarché Central",
+    "neighborhood": "Centre-ville",
+    "timestamp": "2025-11-27T13:45:22",
+    "payment_type": "mobile_money",
+    "total_amount": 89.50,
+    "discount_amount": 5.50,
+    "items": [
+      { "product_id": "P800", "product_name": "Poisson surgelé", "category": "Poisson", "quantity": 1, "unit_price": 25.00, "discount": 2.00 },
+      { "product_id": "P900", "product_name": "Sauce tomate", "category": "Condiments", "quantity": 3, "unit_price": 18.00, "discount": 3.50 }
+    ]
+  },
+  {
+    "transaction_id": "T10010",
+    "store": "Supermarché Ouest",
+    "neighborhood": "Quartier Ouest",
+    "timestamp": "2025-11-28T10:15:30",
+    "payment_type": "card",
+    "total_amount": 210.00,
+    "discount_amount": 15.00,
+    "items": [
+      { "product_id": "P1000", "product_name": "Ravioli frais", "category": "Pâtes et riz", "quantity": 2, "unit_price": 50.00, "discount": 10.00 },
+      { "product_id": "P1100", "product_name": "Parmesan", "category": "Laiterie", "quantity": 1, "unit_price": 25.00, "discount": 5.00 }
+    ]
+  },
+  {
+    "transaction_id": "T10011",
+    "store": "Supermarché Est",
+    "neighborhood": "Quartier Est",
+    "timestamp": "2025-11-28T16:40:50",
+    "payment_type": "cash",
+    "total_amount": 55.00,
+    "discount_amount": 4.00,
+    "items": [
+      { "product_id": "P1200", "product_name": "Yaourt 500g", "category": "Laiterie", "quantity": 2, "unit_price": 12.00, "discount": 2.00 },
+      { "product_id": "P1300", "product_name": "Miel 500g", "category": "Condiments", "quantity": 1, "unit_price": 20.00, "discount": 2.00 }
+    ]
+  },
+  {
+    "transaction_id": "T10012",
+    "store": "Supermarché Central",
+    "neighborhood": "Centre-ville",
+    "timestamp": "2025-11-29T08:30:00",
+    "payment_type": "mobile_money",
+    "total_amount": 175.00,
+    "discount_amount": 10.00,
+    "items": [
+      { "product_id": "P1400", "product_name": "Steak haché 1kg", "category": "Viande", "quantity": 2, "unit_price": 45.00, "discount": 5.00 },
+      { "product_id": "P1500", "product_name": "Oeufs x12", "category": "Laiterie", "quantity": 1, "unit_price": 40.00, "discount": 5.00 }
+    ]
+  },
+  {
+    "transaction_id": "T10013",
+    "store": "Supermarché Ouest",
+    "neighborhood": "Quartier Ouest",
+    "timestamp": "2025-11-29T14:20:15",
+    "payment_type": "card",
+    "total_amount": 128.00,
+    "discount_amount": 8.00,
+    "items": [
+      { "product_id": "P1600", "product_name": "Salade mixte", "category": "Fruits et légumes", "quantity": 3, "unit_price": 8.00, "discount": 2.00 },
+      { "product_id": "P1700", "product_name": "Vinaigrette", "category": "Condiments", "quantity": 2, "unit_price": 32.00, "discount": 6.00 }
+    ]
+  },
+  {
+    "transaction_id": "T10014",
+    "store": "Supermarché Est",
+    "neighborhood": "Quartier Est",
+    "timestamp": "2025-11-30T11:00:45",
+    "payment_type": "cash",
+    "total_amount": 95.00,
+    "discount_amount": 7.00,
+    "items": [
+      { "product_id": "P1800", "product_name": "Jambon 300g", "category": "Charcuterie", "quantity": 2, "unit_price": 22.00, "discount": 3.00 },
+      { "product_id": "P1900", "product_name": "Mozzarella", "category": "Laiterie", "quantity": 2, "unit_price": 22.00, "discount": 4.00 }
+    ]
+  },
+  {
+    "transaction_id": "T10015",
+    "store": "Supermarché Central",
+    "neighborhood": "Centre-ville",
+    "timestamp": "2025-11-30T17:50:30",
+    "payment_type": "mobile_money",
+    "total_amount": 320.00,
+    "discount_amount": 20.00,
+    "items": [
+      { "product_id": "P2000", "product_name": "Champagne 75cl", "category": "Alcools", "quantity": 2, "unit_price": 80.00, "discount": 10.00 },
+      { "product_id": "P2100", "product_name": "Vin rouge", "category": "Alcools", "quantity": 2, "unit_price": 60.00, "discount": 10.00 }
+    ]
+  }
+]
